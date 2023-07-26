@@ -5,15 +5,15 @@ import { Toaster } from 'react-hot-toast';
 
 import GlobalStyles from './styles/global';
 import AppLayout from './ui/layouts/AppLayout';
+import ProtectedRoute from './ui/layouts/ProtectedRoute';
 import Home from './pages/Home';
 import Bookings from './pages/Bookings';
 import Booking from './pages/Booking';
 import Lodgings from './pages/Lodgings';
-import { Checkin } from './pages/Checkin';
 import Login from './pages/Login';
-import ProtectedRoute from './ui/layouts/ProtectedRoute';
 import Users from './pages/Users';
 import Account from './pages/Account';
+import { Checkin } from './pages/Checkin';
 import { DarkModeProvider } from './context/DarkmodeContext';
 
 const queryClient = new QueryClient({
